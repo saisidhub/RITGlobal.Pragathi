@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{02D69A6E-ED55-4B65-B961-DA62B2470C99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{6EBDE017-CA9A-436E-AFED-2DAB6FA56A02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{65613C9F-A96F-44A5-8F50-5405117AF767}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{66C46360-0938-4086-92B0-AE48A02664EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BC1BCEF3-6270-4B6D-8F6E-AA365701C226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RITGlobal.Pragathi.Business.Core", "RITGlobal.Pragathi.Business.Core\RITGlobal.Pragathi.Business.Core.csproj", "{196B96B7-146A-4219-9658-271427F3F18A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RITGlobal.Pragathi.Business.Models", "RITGlobal.Pragathi.Business.Models\RITGlobal.Pragathi.Business.Models.csproj", "{98A6EB1F-760C-46F6-AC54-176EB23A77FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RITGlobal.Pragathi.Common.Utilities", "RITGlobal.Pragathi.Common.Utilities\RITGlobal.Pragathi.Common.Utilities.csproj", "{F107018B-6433-4065-BD0B-9331A610F166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RITGlobal.Pragathi.Data", "RITGlobal.Pragathi.Data\RITGlobal.Pragathi.Data.csproj", "{5F984CF1-9B97-4715-9B39-583DD160E0E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RITGlobal.Pragathi.Web", "RITGlobal.Pragathi.Web\RITGlobal.Pragathi.Web.csproj", "{5F0B23CD-3533-4A24-892C-85898A4ECFF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RITGlobal.Pragathi.Api", "RITGlobal.Pragathi.Api\RITGlobal.Pragathi.Api.csproj", "{147622A1-B490-489F-A654-A5CE09A2300A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{196B96B7-146A-4219-9658-271427F3F18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196B96B7-146A-4219-9658-271427F3F18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196B96B7-146A-4219-9658-271427F3F18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196B96B7-146A-4219-9658-271427F3F18A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A6EB1F-760C-46F6-AC54-176EB23A77FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A6EB1F-760C-46F6-AC54-176EB23A77FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A6EB1F-760C-46F6-AC54-176EB23A77FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A6EB1F-760C-46F6-AC54-176EB23A77FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F107018B-6433-4065-BD0B-9331A610F166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F107018B-6433-4065-BD0B-9331A610F166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F107018B-6433-4065-BD0B-9331A610F166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F107018B-6433-4065-BD0B-9331A610F166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F984CF1-9B97-4715-9B39-583DD160E0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F984CF1-9B97-4715-9B39-583DD160E0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F984CF1-9B97-4715-9B39-583DD160E0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F984CF1-9B97-4715-9B39-583DD160E0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0B23CD-3533-4A24-892C-85898A4ECFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0B23CD-3533-4A24-892C-85898A4ECFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0B23CD-3533-4A24-892C-85898A4ECFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0B23CD-3533-4A24-892C-85898A4ECFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147622A1-B490-489F-A654-A5CE09A2300A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147622A1-B490-489F-A654-A5CE09A2300A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147622A1-B490-489F-A654-A5CE09A2300A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147622A1-B490-489F-A654-A5CE09A2300A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{196B96B7-146A-4219-9658-271427F3F18A} = {02D69A6E-ED55-4B65-B961-DA62B2470C99}
+		{98A6EB1F-760C-46F6-AC54-176EB23A77FC} = {02D69A6E-ED55-4B65-B961-DA62B2470C99}
+		{F107018B-6433-4065-BD0B-9331A610F166} = {6EBDE017-CA9A-436E-AFED-2DAB6FA56A02}
+		{5F984CF1-9B97-4715-9B39-583DD160E0E6} = {65613C9F-A96F-44A5-8F50-5405117AF767}
+		{5F0B23CD-3533-4A24-892C-85898A4ECFF1} = {66C46360-0938-4086-92B0-AE48A02664EE}
+		{147622A1-B490-489F-A654-A5CE09A2300A} = {BC1BCEF3-6270-4B6D-8F6E-AA365701C226}
+	EndGlobalSection
+EndGlobal
